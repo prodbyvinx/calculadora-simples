@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "cabin";
+    src: url(/fonts/Cabin-Regular.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "cabin";
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);    
+    background-size: cover;
+}
+
+h1 {
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#form {
+    width: 40%;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    font-family: "cabin";
+    border-radius: 2.3rem;
+    border: none;
+    padding-left: 15px;
+    font-size: 10pt;
+}
+
+#selector {
+    height: 30px;
+    border: none;
+    width: 50px;
+    text-align: center;
+}
+
+button {
+    background-color: #d6aeff;
+    color: rgb(24, 24, 24);
+    border: none;
+    border-radius: 2.3rem;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    font-family: 'cabin';
+    font-size: 13pt;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #b48ad8;   
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    margin: auto;
+}
